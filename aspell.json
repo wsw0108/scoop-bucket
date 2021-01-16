@@ -1,0 +1,59 @@
+{
+    "version": "0.60.7-1",
+    "description": "aspell",
+    "homepage": "https://www.gnu.org/software/aspell/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Move-Item \"$dir\\mingw64\\*\" \"$dir\"",
+                "Remove-Item \"$dir\\mingw64\", \"$dir\\.*\""
+            ],
+            "url": [
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-aspell-0.60.7-1-any.pkg.tar.xz",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-9.0.0.6090.ad98746a-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.16-2-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-expat-2.2.10-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.19.8.1-10-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-aspell-en-2019.10.06-1-any.pkg.tar.xz"
+            ],
+            "hash": [
+                "1287d71c105f4289c04aebd3bb997e63ff6c754517563c055ac3c109a935b1e4",
+                "ea89dd424e6e574c90b496ed28cc074d187ce33b306b1319809718df8eec9963",
+                "aa20b2dac9d4286d20a890200cab9a204a5236f69d9e83c0711273ece2553a6a",
+                "44d1f338012a8f503eb31ad8941129df09d3d6307f688f30d612eef3b17a285b",
+                "50cd229f8aed5ed4b0a066715a17d028f2898571975b24ac08dda70e8ad1d0bb",
+                "2fa2067672b22269ee8bdc4485b27537057adac3ed4d6d2db0043763f01e0816",
+                "47b101231bff75c8a867561cd0dbb1bdbf6f11812733d0a24bc1d7202adc9b7f"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Move-Item \"$dir\\mingw32\\*\" \"$dir\"",
+                "Remove-Item \"$dir\\mingw32\", \"$dir\\.*\""
+            ],
+            "url": [
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-aspell-0.60.7-1-any.pkg.tar.xz",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libs-10.2.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6090.ad98746a-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-libiconv-1.16-2-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-expat-2.2.10-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-gettext-0.19.8.1-10-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-aspell-en-2019.10.06-1-any.pkg.tar.xz"
+            ],
+            "hash": [
+                "1dca22a717ed9ecd2fc7b53abfbb2cfcac3c81776443ab39414c2595ac4ecdda",
+                "3898d30fb16decc80cd52343c79ee19a548cef36a7aa7de29f347c95a5583f3e",
+                "0ea49c01fa033ca6ab3d83f23ccffe5b3e0830461fa9a3a6908b1d4354cb46c8",
+                "c41d820099d5b4e34f1099cae5092113d0ca44a17bd78d03da873100a25c8aad",
+                "114d682ea469004e67b4979685aa62e10a922581b41fee8988a2639cd0e47d51",
+                "3a26d741e13032b8eb340def7e2500b51259ea2734e19258b6a828a243fdfc6b",
+                "6d4ce18e7d0076adb5ea9009d5807a87c7b92bdbae538fdc05d560f060783e83"
+            ]
+        }
+    },
+    "bin": [
+        "bin\\aspell.exe"
+    ]
+}
