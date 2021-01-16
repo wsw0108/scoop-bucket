@@ -32,6 +32,7 @@
                 "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-rime-terra-pinyin-0.0.0.20200207-1-any.pkg.tar.xz",
                 "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-rime-wubi-0.0.0.20190120-1-any.pkg.tar.zst",
                 "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-opencc-1.0.6-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-rime-prelude-0.0.0.20190122-1-any.pkg.tar.xz",
                 "https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-librime-data-0.0.0.20190122-1-any.pkg.tar.xz"
             ],
             "hash": [
@@ -50,6 +51,7 @@
                 "6a825cf97d1831eb6c17109d8291a7bf33e4d1ce5888ce282fdefcb1b17268a4",
                 "94353d0b2fdbe5fefbc94366ab3415722a92f185cfb0ab9cd5bf101c9b07021f",
                 "5837698d6f18111e5d1becbf08eda23d39718230f0ab6343d4accec40d96aedc",
+                "2cb0cd61b477242ed2ef416f6140c4686231e90e1f5f4fb3b58bc7ab1306325f",
                 "829dab3014ea6eb754f736a539f8f02feb39f1f5657ab443ef3e05a540ca8815"
             ]
         },
@@ -81,6 +83,7 @@
                 "https://repo.msys2.org/mingw/i686/mingw-w64-i686-rime-terra-pinyin-0.0.0.20200207-1-any.pkg.tar.xz",
                 "https://repo.msys2.org/mingw/i686/mingw-w64-i686-rime-wubi-0.0.0.20190120-1-any.pkg.tar.zst",
                 "https://repo.msys2.org/mingw/i686/mingw-w64-i686-opencc-1.0.6-1-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/i686/mingw-w64-i686-rime-prelude-0.0.0.20190122-1-any.pkg.tar.xz",
                 "https://repo.msys2.org/mingw/i686/mingw-w64-i686-librime-data-0.0.0.20190122-1-any.pkg.tar.xz"
             ],
             "hash": [
@@ -99,6 +102,7 @@
                 "fbf1e100cc003701a06cecb3ed9b900c701d5836d6b1a65a74b1f27815ec8ea6",
                 "182df878a4036539cc4b3af9b359cadc646e7cda1b207c21454aed2375d178e4",
                 "a8b92e9402c1bb1b6fbfb276286f07567d4a212f7a15726ca75c2839591f38ee",
+                "c50cc4d408357a8a86a05bb5dffd31a145faf5097ba264559c41078dfad76dd7",
                 "91b74f8a332bedbf563a00b38f4f120959e5643bc033bb814c357ff271d9cc0d"
             ]
         }
