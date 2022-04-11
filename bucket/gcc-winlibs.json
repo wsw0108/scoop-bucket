@@ -1,0 +1,28 @@
+{
+    "version": "11.2.0-10.0.0-r1",
+    "description": "GNU Compiler Collection (WinLibs build)",
+    "homepage": "https://winlibs.com",
+    "license": "GPL-3.0-or-later,ZPL-2.1,BSD-2-Clause,...",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/11.2.0-10.0.0-msvcrt-r1/winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64msvcrt-10.0.0-r1.7z",
+            "hash": "sha512:2997e0a7e2e8b661e6144cc4807c867f3e225d9c4e77de62215dda7ec646fdb8026851abbb3eab23e2e701f511ce33449bf468d0b007b8825d609f5798dad355",
+            "extract_dir": "mingw64"
+        }
+    },
+    "env_add_path": "bin",
+    "checkver": {
+        "regex": "GCC ([\\d.]+).*?LLVM.*?([\\d.]+).*?MinGW\\-w64 ([\\d.]+).*?MSVCRT.*?release ([\\d.]+).*?LATEST",
+        "replace": "${1}-${3}-r${4}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/brechtsanders/winlibs_mingw/releases/download/$match1-$match3-msvcrt-r$match4/winlibs-x86_64-posix-seh-gcc-$match1-mingw-w64msvcrt-$match3-r$match4.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha512"
+        }
+    }
+}
