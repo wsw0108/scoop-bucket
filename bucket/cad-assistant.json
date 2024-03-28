@@ -12,7 +12,7 @@
             "CAD Assistant"
         ]
     ],
-    "checkver": "cad_assistant_([\\d.]+)_win64.zip",
+    "checkver": "cad_assistant_([\\d.]+_\\d{4}-\\d{2}-\\d{2})_win64\\.zip",
     "autoupdate": {
         "extract_dir": "cad_assistant_$version_win64",
         "url": "https://www.opencascade.com/sites/default/files/private/occt/applications/cad_assistant_$version_win64.zip"

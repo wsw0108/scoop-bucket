@@ -1,0 +1,34 @@
+{
+    "version": "1.15.11",
+    "description": "Gopass Browser Bindings",
+    "homepage": "https://www.gopass.pw/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.15.11/gopass-jsonapi-1.15.11-windows-amd64.zip",
+            "hash": "aedb0c46343bf11817b6b54fe273494264ea26e0dc952371e6147eaa1e531942"
+        },
+        "arm64": {
+            "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.15.11/gopass-jsonapi-1.15.11-windows-arm64.zip",
+            "hash": "5454a3ec6ecb8bd88b17b5dccece83831070ccbb2f29d861d070b8092f04b733"
+        }
+    },
+    "bin": "gopass-jsonapi.exe",
+    "checkver": {
+        "github": "https://github.com/gopasspw/gopass-jsonapi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/gopasspw/gopass-jsonapi/releases/download/v$version/gopass-jsonapi-$version-windows-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/gopass-jsonapi_$version_SHA256SUMS",
+            "regex": "$sha256  $basename\\n"
+        }
+    }
+}

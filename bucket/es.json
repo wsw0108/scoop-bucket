@@ -1,13 +1,13 @@
 {
-    "version": "1.1.0.24",
+    "version": "1.1.0.27",
     "description": "Locate files and folders by name instantly(cli).",
     "homepage": "https://www.voidtools.com/en-us/downloads/",
     "license": "MIT",
-    "url": "https://www.voidtools.com/ES-1.1.0.24.zip",
-    "hash": "bb17b7c5b4f94eb73384656c32f04634289413f78f81d73d67d72d8526e0e4d8",
+    "url": "https://www.voidtools.com/ES-1.1.0.27.x64.zip",
+    "hash": "16058ccaa225d2b40bf2fc67acf64fd2d928a4ba485def7277885d66b6dc8a6a",
     "bin": "es.exe",
-    "checkver": "ES-([\\d.]+).zip",
+    "checkver": "ES-([\\d.]+).x64.zip",
     "autoupdate": {
-        "url": "https://www.voidtools.com/ES-$version.zip"
+        "url": "https://www.voidtools.com/ES-$version.x64.zip"
     }
 }
