@@ -16,7 +16,7 @@
             "env_add_path": "bin",
             "url": [
                 "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-librime-1.11.2-1-any.pkg.tar.zst",
-                "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-libs-13.1.0-6-any.pkg.tar.zst",
+                "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-gcc-libs-13.1.0-7-any.pkg.tar.zst",
                 "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libwinpthread-git-12.0.0.r81.g90abf784a-1-any.pkg.tar.zst",
                 "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-libiconv-1.18-1-any.pkg.tar.zst",
                 "https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-glog-0.7.1-1-any.pkg.tar.zst",
@@ -41,7 +41,7 @@
             ],
             "hash": [
                 "3ee0a3af3b118de648d3eea0b20facff59e8170823d1a23ea37b84d1c256679f",
-                "e7c2327a836d1a60ee1000b1e946796c08719d4c8e22d5af0bffebcf8c7749fe",
+                "da1a59e280b9589ba33a9371e071e4e4baf2702d374756a78de232ecd5d96d7d",
                 "8fbf5d6d0c0726a823df1602a9f92e4c4289b5469be1deeff92e40dddf762a7b",
                 "fda1cb18d83c363c73df1a836fe9ff5c830d28b8a3a693e1c05d1fdfea799119",
                 "80811f25ab9dddf163bce3825f12b57a05539d953a94a625bf9044d50de106e1",
