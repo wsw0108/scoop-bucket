@@ -1,0 +1,39 @@
+{
+    "version": "1.68.0",
+    "description": "A collection of JavaScript tools written in Rust.",
+    "homepage": "https://github.com/oxc-project/oxc",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.68.0/oxfmt-x86_64-pc-windows-msvc.zip",
+            "hash": "sha256:1773dd53dc4f4082378f0c12192bd3287eb52bcaaffdd57ea888c0e8f912e0d2"
+        },
+        "32bit": {
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.68.0/oxfmt-i686-pc-windows-msvc.zip",
+            "hash": "sha256:24d7eed44524b18b11d875963c894c7191d69a058eaee7a03a68ce608e54eae8"
+        },
+        "arm64": {
+            "url": "https://github.com/oxc-project/oxc/releases/download/apps_v1.68.0/oxfmt-aarch64-pc-windows-msvc.zip",
+            "hash": "sha256:3137750c8899e3b112f1591ae288672ea64e2ab8a323652c742bba3a7b392faf"
+        }
+    },
+    "pre_install": "Get-Item \"$dir\\oxfmt-*.exe\" | Rename-Item -NewName \"$dir\\oxfmt.exe\"",
+    "bin": "oxfmt.exe",
+    "checkver": {
+        "github": "https://github.com/oxc-project/oxc",
+        "regex": "apps_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-i686-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxfmt-aarch64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
